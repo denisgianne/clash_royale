@@ -1,4 +1,5 @@
 <?php
+// to not render the table.. just to create a static HTML with data
 ob_start();
 $log_str = '';
 $log_str .= "[userAgent:".$_SERVER['HTTP_USER_AGENT'] ."]\n";
