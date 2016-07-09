@@ -21,7 +21,7 @@
 	rarity{float: left;display: block; width: 65px; height: 35px;}
 	#rarity .row{width: 218px;}
 </style>
-
+<!-- need to separate CSS scripts here -->
 <script>
 function off_troop(troop){
 	$('div[troop='+troop+']').hide();
