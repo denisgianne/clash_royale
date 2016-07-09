@@ -19,3 +19,4 @@ WHERE `hitpoints` < 520 -- fogo 6
 group by t.name, t.rarity
 
 order by max_level, rarity, max_hitpoints
+-- SQL EXAMPLE FOR SEARCHES
